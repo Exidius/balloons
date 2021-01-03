@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Balloons</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/icon.png"/>
+</head>
+<body>
+<header>
+    <div class="center">
+        <div class="header-top">
+            <a href="index.html" class="header-home-link">Balloons</a>
+            <p>Email: balloons@balazs.com</p>
+            <p>Phone: 0123456789</p>
+            <a href="basket.html" class="basket-button float-right">Basket</a>
+        </div>
+    </div>
+</header>
+<main class="center">
+    <div class="flex-container gifting-box-editor">
+        <div class="flex-column-50 padding-10">
+            <p>Text on the box:</p>
+            <textarea placeholder="Enter your text here"></textarea>
+            <p>Color of the box:</p>
+            <select class="text-input">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+                <option value="yellow">Yellow</option>
+                <option value="White">White</option>
+            </select>
+        </div>
+        <div class="flex-column-50 padding-10">
+            <div class="margin-v-10">
+                <p>Do you want the balloons pre-inflated?</p>
+                <input type="radio" id="preinflated" name="preinflated" value="preinflated">
+                <label for="preinflated">Pre-inflated</label><br/>
+                <input type="radio" id="noninflated" name="noninflated" value="noninflated">
+                <label for="noninflated">Not inflated</label>
+            </div>
+            <div class="margin-v-10">
+                <p>Which gas to use?</p>
+                <input type="radio" id="air" name="air" value="air">
+                <label for="air">Air</label><br/>
+                <input type="radio" id="helium" name="helium" value="helium">
+                <label for="helium">Helium</label>
+            </div>
+            <div class="margin-v-10">
+                <p>Confetti filling?</p>
+                <input type="radio" id="confetti" name="confetti" value="confetti">
+                <label for="confetti">Yes</label><br/>
+                <input type="radio" id="no-confetti" name="no-confetti" value="no-confetti">
+                <label for="no-confetti">No</label>
+            </div>
+        </div>
+    </div>
+    <h2>Price: 10$</h2>
+    <div class="input-form">
+            <p>First name</p>
+            <input type="text" class="text-input"/>
+            <p>Last name</p>
+            <input type="text" class="text-input"/>
+            <p>City</p>
+            <input type="text" class="text-input"/>
+            <p>Address</p>
+            <input type="text" class="text-input"/>
+    </div>
+    <a href="payment.html" class="btn" >To payment</a>
+</main>
+<footer>
+    <div class="center">
+        <p class="float-left">Webdesign assignment 2021</p>
+        <p class="float-right">Created by: Balázs Barad</p>
+    </div>
+</footer>
+</body>
+</html>
